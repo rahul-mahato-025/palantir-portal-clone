@@ -136,6 +136,36 @@ h2 {
   line-height: 22px;
   margin-bottom: 30px;
 }
+.resume-div {
+  position: relative;
+}
+
+.resume-div input {
+  opacity: 0;
+}
+
+.attatch-resume-div {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #ebecf0;
+  color: #b19ba2;
+  padding: 5px 20px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+.attatch-resume-div img {
+  width: 8px;
+  height: 16px;
+  opacity: 0.5;
+  /* rotate: 180deg; */
+}
 
 .form,
 .application-details,
